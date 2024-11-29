@@ -15,9 +15,7 @@ while(respuesta !== pin && intentos < 3){
     intentos++;
 }
 if (respuesta === pin) {
-    alert("El pin es correcto!!!");
+    alert("Has acertado!!!");
 } else {
     alert("Lo has intentado demasiadas veces.");
 }
-
-alert("El pin es correcto!!!");
