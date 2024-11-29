@@ -40,28 +40,38 @@
 
 
 // 7- Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
-let num1 = 10
-let num2 = 2
-let num3 = 7
-let numMayor = num1 = num2;
-if (numMayor > num2) {
-    numMayor = num2;
-}
-(numMayor > num1) 
-    numMayor = num1;
+// let num1 = 10
+// let num2 = 2
+// let num3 = 7
+// let numMayor = num1 = num2;
+// if (numMayor > num2) {
+//     numMayor = num2;
+// }
+// (numMayor > num1) 
+//     numMayor = num1;
 
-console.log("El número " + numMayor + " es el mayor");
+// console.log("El número " + numMayor + " es el mayor");
 
 // 8- Escribe un programa que pida un número y diga si es divisible por 2.
-let a = parseFloat(prompt ("Escribe un número:"));
+// let a = parseFloat(prompt ("Escribe un número:"));
 
-("si (a % 2 === 0) -> es par sinó es impar");
-if(a % 2 === 0) {
-    alert("Par");
-}else {
-    alert("Impar");
-}
+// ("si (a % 2 === 0) -> es par sinó es impar");
+// if(a % 2 === 0) {
+//     alert("Par");
+// }else {
+//     alert("Impar");
+// }
 // 9- Escribe un programa que pida una frase y escriba cuántas veces aparece la letra "a".
+let frase = prompt("Escribe una frase:");
+let contador = 0;
+
+for (let i = 0; i < frase.length; i++) {
+    if (frase[i].toLowerCase() === "a") {
+        contador++;
+    }
+}
+
+alert(`La letra "a" aparece ${contador} veces.`);
 // 10- Escribe un programa que pida una frase y escriba las vocales que aparecen.
 // 11- Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son
 // vocales.
