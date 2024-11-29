@@ -1,18 +1,10 @@
-/**
- * Juego del pitoniso
- * versión con do while y break
- */
+let i = 0;
+while(i > 10) {
+    console.log(i);
+    i++;
+}
 
-//generar numero aleatorio
-const secretNumber = Math.floor(Math.random()*100) + 1;
-let intentos = 3;
-
-do {
-    let numeroJugador = parseInt(prompt("Introduce un número entre 1 y 100"));
-    if(numeroJugador === secretNumber) {
-        alert("Has ganado!!")
-    }
-    alert(numeroJugador < secretNumber ? "No llegas" : "Te has pasado");
-}while(--intentos);
-
-if(!intentos) alert("Has perdido")
+//bucle for
+for(let i = 0;i < 10; i++){
+    
+}
