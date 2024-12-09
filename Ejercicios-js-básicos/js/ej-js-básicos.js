@@ -62,17 +62,47 @@
 //     alert("Impar");
 // }
 // 9- Escribe un programa que pida una frase y escriba cuántas veces aparece la letra "a".
-let frase = prompt("Escribe una frase:");
-let contador = 0;
+// let frase = prompt("Escribe una frase:");
+// let contador = 0;
 
-for (let i = 0; i < frase.length; i++) {
-    if (frase[i].toLowerCase() === "a") {
-        contador++;
-    }
-}
+// for (let i = 0; i < frase.length; i++) {
+//     if (frase[i].toLowerCase() === "a") {
+//         contador++;
+//     }
+// }
 
-alert(`La letra "a" aparece ${contador} veces.`);
+// alert(`La letra "a" aparece ${contador} veces.`);
 // 10- Escribe un programa que pida una frase y escriba las vocales que aparecen.
+// const frase = prompt("Escribe una frase:");
+// let numVocales = 0;
+// const vocales = "aeiouAEIOU";
+
+// for (let i = 0; i < frase.length; i++) {
+//     const letra = frase {i};
+//     //solo sumar si es a, e, i, o, u
+//     if (letra === "a" || letra === "e"||  letra === "i"||  letra === "o"||  letra === "u") {
+//         numVocales++;
+//     }
+// }
+
+// alert(`La frase tiene ${numVocales} vocales`);
+
+// const frase = prompt("Escribe una frase");
+// let numVocales = 0;
+// const vocales = "aeiuoAEIOU";
+
+// for (let i = 0; i < frase.length; i++) {
+//     for (let j = 0; j < frase.length; j++) {
+//         if(frase{i} === vocales{j}){
+//             numVocales++;
+//         }
+//     }
+// }
+//alert(`La frase tiene $(numVocales) vocales`);
+const expVocal = /{aeiouAEIOU}///Uso de expresiones regulares en JS
+for (let i = 0; i < frames.length; i++) {
+    if(expVocal.test(`frase`))
+}
 // 11- Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son
 // vocales.
 // 12- Escribe un programa que pida una frase y escriba cuántas veces aparece cada una de
