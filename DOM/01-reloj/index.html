@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: #61dafb;
+      }
+
+      .clock {
+        margin-top: 20px;
+        display: flex;
+        gap: 0.2rem;
+      }
+      .digit {
+        font-size: 3rem;
+        text-align: center;
+        border: 1px solid #61dafb;
+      }
+      .separator {
+        font-size: 3rem;
+        line-height: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Reloj con Javascript</h1>
+    <div class="clock">
+      <div id="hour1" class="digit">0</div>
+      <div id="hour2" class="digit">0</div>
+      <div class="separator">:</div>
+      <div id="minute1" class="digit">0</div>
+      <div id="minute2" class="digit">0</div>
+      <div class="separator">:</div>
+      <div id="second1" class="digit">0</div>
+      <div id="second2" class="digit">0</div>
+    </div>
+    <script>
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, "0");
+      const minutes = now.getMinutes();
+      const seconds = now.getSeconds();
+
+      //Nos traemos una referencia de
+      //los elementos que necesitamos modificar
+      const hour1 = document.getElementById("hour1");
+      const hour2 = document.getElementById("hour2");
+      const minute1 = document.getElementById("minute1");
+      const minute2 = document.getElementById("minute2");
+      const second1 = document.getElementById("second1");
+      const second2 = document.getElementById("second2");
+
+      hour1.textContent = hours[0];
+      hour2.textContent = hours[1];
+      minute1.textContent = hours[0];
+      minute2.textContent = hours[1];
+      hour1.textContent = hours[0];
+      hour2.textContent = hours[1];
+
+      //Encapsular el codigo en una funcion
+      //llamar a la funcion cada segundo para
+      //el reloj
+    </script>
+  </body>
+</html>
