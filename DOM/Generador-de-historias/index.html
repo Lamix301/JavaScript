@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de Historias</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      #story {
+        margin-top: 20px;
+        font-size: 1.2em;
+        color: #333;
+      }
+      .options {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Generador de Historias Tontas</h1>
+    <p>Escribe un nombre personalizado y selecciona la región si deseas.</p>
+    <label for="customName">Enter custom name:</label>
+    <input type="text" id="customName" placeholder="e.g., Alice" />
+    <div class="options">
+      <label>
+        <input type="radio" name="region" id="uk" value="uk" />
+        UK
+      </label>
+      <label>
+        <input type="radio" name="region" value="us" checked />
+        US
+      </label>
+    </div>
+    <button id="randomize">Generate random story</button>
+    <p id="story"></p>
+
+    <script src="main.js"></script>
+  </body>
+</html>
