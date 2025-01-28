@@ -1,0 +1,9 @@
+[
+    { "titulo": "El nombre de la rosa", "autor": "Umberto Eco", "leido": true, "imagen": "images/libro1.jpg" },
+
+    { "titulo": "El Señor de los Anillos", "autor": "J.R.R. Tolkien", "leido": false, "imagen": "images/libro2.jpg" },
+
+    { "titulo": "El Ingenioso Hidalgo Don Quixote de la Mancha", "autor": "Miguel de Cervantes", "leido": true, "imagen": "images/libro3.png" },
+
+    { "titulo": "El Camino", "autor": "Miguel Delibes", "leido": false, "imagen": "images/libro4.jpg" }
+]

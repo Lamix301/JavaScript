@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.libro {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.libro img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+.leido {
+    background-color: #d4f7d4;
+}
+.no-leido {
+    background-color: #f0f0f0; 
+}
